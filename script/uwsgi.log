@@ -1,0 +1,424 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 16:13:12 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/PythonTest/script/uwsgi.sock fd 6
+Python version: 3.6.1 (default, Oct 31 2017, 23:14:41)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0xd3bc10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd3bc10 pid: 28206 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28206)
+spawned uWSGI worker 1 (pid: 28208, cores: 1)
+spawned uWSGI worker 2 (pid: 28209, cores: 1)
+spawned uWSGI worker 3 (pid: 28210, cores: 1)
+spawned uWSGI worker 4 (pid: 28211, cores: 1)
+spawned uWSGI worker 5 (pid: 28212, cores: 1)
+spawned uWSGI http 1 (pid: 28213)
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 22:13:45 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 22:14:34 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+Fri Nov  3 14:15:53 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:15:53 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:15:53 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:15:53 2017 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:15:53 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 22:16:02 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/PythonTest/script/uwsgi.sock fd 6
+Python version: 3.6.1 (default, Oct 31 2017, 23:14:41)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x10f8c10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x10f8c10 pid: 32306 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32306)
+spawned uWSGI worker 1 (pid: 32308, cores: 1)
+spawned uWSGI worker 2 (pid: 32309, cores: 1)
+spawned uWSGI worker 3 (pid: 32310, cores: 1)
+spawned uWSGI worker 4 (pid: 32311, cores: 1)
+spawned uWSGI worker 5 (pid: 32312, cores: 1)
+spawned uWSGI http 1 (pid: 32313)
+Fri Nov  3 14:16:21 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:16:21 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:16:21 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:16:21 2017 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:16:21 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 22:21:42 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/PythonTest/script/uwsgi.sock fd 6
+Python version: 3.6.1 (default, Oct 31 2017, 23:14:41)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0xbd2c10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xbd2c10 pid: 32418 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32418)
+spawned uWSGI worker 1 (pid: 32420, cores: 1)
+spawned uWSGI worker 2 (pid: 32421, cores: 1)
+spawned uWSGI worker 3 (pid: 32422, cores: 1)
+spawned uWSGI worker 4 (pid: 32423, cores: 1)
+spawned uWSGI worker 5 (pid: 32424, cores: 1)
+spawned uWSGI http 1 (pid: 32425)
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 22:31:55 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
+Fri Nov  3 14:40:48 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:40:48 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:40:48 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:40:48 2017 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 14:40:48 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 22:47:24 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 23:12:07 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on :8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/PythonTest/script/uwsgi.sock fd 6
+Python version: 3.6.1 (default, Oct 31 2017, 23:14:41)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1f6c800
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'HelloWorld.wsgi#'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 833)
+spawned uWSGI worker 1 (pid: 834, cores: 1)
+spawned uWSGI worker 2 (pid: 835, cores: 1)
+spawned uWSGI worker 3 (pid: 836, cores: 1)
+spawned uWSGI worker 4 (pid: 837, cores: 1)
+spawned uWSGI worker 5 (pid: 838, cores: 1)
+spawned uWSGI http 1 (pid: 839)
+--- no python application found, check your startup logs for errors ---
+[pid: 837|app: -1|req: -1/1] 112.80.128.201 () {36 vars in 595 bytes} [Fri Nov  3 23:12:13 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 23:14:15 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (:8080).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 838|app: -1|req: -1/2] 112.80.128.201 () {36 vars in 595 bytes} [Fri Nov  3 23:14:21 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Fri Nov  3 23:16:01 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 23:16:01 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 23:16:01 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 23:16:01 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Nov  3 23:16:01 2017 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Nov  3 23:16:07 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on :8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/PythonTest/script/uwsgi.sock fd 6
+Python version: 3.6.1 (default, Oct 31 2017, 23:14:41)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x23c5800
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x23c5800 pid: 910 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 910)
+spawned uWSGI worker 1 (pid: 912, cores: 1)
+spawned uWSGI worker 2 (pid: 913, cores: 1)
+spawned uWSGI worker 3 (pid: 914, cores: 1)
+spawned uWSGI worker 4 (pid: 915, cores: 1)
+spawned uWSGI worker 5 (pid: 916, cores: 1)
+spawned uWSGI http 1 (pid: 917)
+[pid: 915|app: 0|req: 1/1] 112.80.128.201 () {36 vars in 593 bytes} [Fri Nov  3 15:16:54 2017] GET / => generated 1716 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 913|app: 0|req: 1/2] 112.80.128.201 () {36 vars in 594 bytes} [Fri Nov  3 15:17:30 2017] GET / => generated 1716 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 914|app: 0|req: 1/3] 112.80.128.201 () {40 vars in 648 bytes} [Sat Nov  4 11:58:37 2017] GET / => generated 1716 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 916|app: 0|req: 1/4] 112.80.128.201 () {40 vars in 648 bytes} [Sat Nov  4 11:58:57 2017] GET / => generated 1716 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 912|app: 0|req: 1/5] 112.80.128.201 () {36 vars in 595 bytes} [Sat Nov  4 12:00:30 2017] GET / => generated 1716 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 915|app: 0|req: 2/6] 112.80.128.201 () {34 vars in 582 bytes} [Sat Nov  4 12:00:30 2017] GET /favicon.ico => generated 1972 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 913|app: 0|req: 2/7] 112.80.128.201 () {34 vars in 582 bytes} [Sat Nov  4 12:00:50 2017] GET /favicon.ico => generated 1972 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 914|app: 0|req: 2/8] 112.80.128.201 () {36 vars in 595 bytes} [Sat Nov  4 12:16:15 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Sat Nov  4 12:18:49 2017 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:18:49 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:18:49 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:18:49 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:18:49 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Nov  4 20:19:30 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/script
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/PythonTest/script/uwsgi.sock fd 6
+Python version: 3.6.1 (default, Oct 31 2017, 23:14:41)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1fe2c10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fe2c10 pid: 14186 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14186)
+spawned uWSGI worker 1 (pid: 14188, cores: 1)
+spawned uWSGI worker 2 (pid: 14189, cores: 1)
+spawned uWSGI worker 3 (pid: 14190, cores: 1)
+spawned uWSGI worker 4 (pid: 14191, cores: 1)
+spawned uWSGI worker 5 (pid: 14192, cores: 1)
+spawned uWSGI http 1 (pid: 14193)
+Sat Nov  4 12:52:59 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:52:59 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:52:59 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:52:59 2017 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Nov  4 12:52:59 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15 (64bit) on [Sat Nov  4 20:53:19 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 31 October 2017 23:26:18
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: izi0p1lqcxxroqz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/PythonTest/HelloWorld
+writing pidfile to /home/PythonTest/script/uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PythonTest/HelloWorld/
+your processes number limit is 7274
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/PythonTest/script/uwsgi.sock fd 6
+Python version: 3.6.1 (default, Oct 31 2017, 23:14:41)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+Python main interpreter initialized at 0x1db9c10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 485760 bytes (474 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1db9c10 pid: 14857 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14857)
+spawned uWSGI worker 1 (pid: 14859, cores: 1)
+spawned uWSGI worker 2 (pid: 14860, cores: 1)
+spawned uWSGI worker 3 (pid: 14861, cores: 1)
+spawned uWSGI worker 4 (pid: 14862, cores: 1)
+spawned uWSGI worker 5 (pid: 14863, cores: 1)
+spawned uWSGI http 1 (pid: 14864)
+[pid: 14861|app: 0|req: 1/1] 112.80.128.201 () {40 vars in 654 bytes} [Sat Nov  4 13:14:14 2017] GET / => generated 1716 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14862|app: 0|req: 1/2] 112.80.128.201 () {40 vars in 654 bytes} [Sat Nov  4 13:14:23 2017] GET / => generated 1716 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14860|app: 0|req: 1/3] 112.80.128.201 () {40 vars in 642 bytes} [Sat Nov  4 13:23:00 2017] GET / => generated 1716 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14863|app: 0|req: 1/4] 112.80.128.201 () {40 vars in 642 bytes} [Sat Nov  4 13:23:04 2017] GET / => generated 1716 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14859|app: 0|req: 1/5] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:07 2017] GET / => generated 1716 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14861|app: 0|req: 2/6] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:07 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14862|app: 0|req: 2/7] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:07 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14860|app: 0|req: 2/8] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:07 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14863|app: 0|req: 2/9] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:08 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14859|app: 0|req: 2/10] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:08 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14861|app: 0|req: 3/11] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:08 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14862|app: 0|req: 3/12] 112.80.128.201 () {42 vars in 673 bytes} [Sat Nov  4 13:23:08 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /static
+[pid: 14860|app: 0|req: 3/13] 112.80.128.201 () {40 vars in 654 bytes} [Sat Nov  4 13:23:34 2017] GET /static => generated 1957 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 14863|app: 0|req: 3/14] 112.80.128.201 () {40 vars in 654 bytes} [Sat Nov  4 13:30:01 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 14859|app: 0|req: 3/15] 112.80.128.201 () {42 vars in 685 bytes} [Sat Nov  4 13:30:57 2017] GET / => generated 1716 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
